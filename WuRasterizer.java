@@ -69,7 +69,7 @@ class WuRasterizer implements LineRasterizer {
 
     private void addPoint(List<Point> points, int x, int y, float intensity) {
         if (intensity > 0) {
-            points.add(new Point(x, y, intensity));
+            points.add(new Point(x, y));
         }
     }
 
